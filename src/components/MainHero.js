@@ -4,7 +4,7 @@ import {Button} from "./Button";
 function MainHero() {
     return (
         <div className="hero-container">
-            <video src={require("../videos/video-1.mp4")} autoPlay loop muted/>
+            <video preload="none" src={require("../videos/video-1.mp4")} autoPlay loop muted/>
             <h1 className='title'>ADVENTURE AWAITS</h1>
             <p>What is u doinnng</p>
             <div className="hero-btns">
