@@ -58,46 +58,38 @@ function Footer() {
                     </div>
                     <small className='website-rights'>Lolifmaster © 2022</small>
                     <div className='social-icons'>
-                        <Link
-                            class='social-icon-link facebook'
-                            to='/'
+                        <a
+                            className='social-icon-link facebook'
+                            href='https://www.facebook.com/Chrf.Mounir'
                             target='_blank'
                             aria-label='Facebook'
                         >
                             <i className='fab fa-facebook-f'/>
-                        </Link>
-                        <Link
-                            class='social-icon-link instagram'
-                            to='/'
+                        </a>
+                        <a
+                            className='social-icon-link instagram'
+                            href='https://www.instagram.com/chrf_mounir/'
                             target='_blank'
                             aria-label='Instagram'
                         >
                             <i className='fab fa-instagram'/>
-                        </Link>
-                        <Link
-                            class='social-icon-link youtube'
-                            to='/'
-                            target='_blank'
-                            aria-label='Youtube'
-                        >
-                            <i className='fab fa-youtube'/>
-                        </Link>
-                        <Link
-                            class='social-icon-link twitter'
-                            to='/'
+                        </a>
+                        <a
+                            className='social-icon-link github'
+                            href='https://github.com/lolifmaster'
                             target='_blank'
                             aria-label='Twitter'
                         >
-                            <i className='fab fa-twitter'/>
-                        </Link>
-                        <Link
-                            class='social-icon-link twitter'
-                            to='/'
+                            <i className='fab fa-github'/>
+                        </a>
+                        <a
+                            className='social-icon-link twitter'
+                            href='https://www.linkedin.com/in/mounir-charef-3397b1229/'
                             target='_blank'
                             aria-label='LinkedIn'
                         >
                             <i className='fab fa-linkedin'/>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </section>
