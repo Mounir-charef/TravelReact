@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Permanent+Marker&display=swap');
 
 
 * {
@@ -13,7 +13,9 @@
 .title {
     font-family: 'Permanent Marker', cursive !important;
 }
-
+#sous-title{
+    font-family: 'Amatic SC', cursive;
+}
 .home,
 .services,
 .products,
@@ -26,7 +28,7 @@
 }
 
 .services {
-    background-image: url('/images/img-2.jpg');
+    background-image: url('./images/img-2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,7 +37,7 @@
 }
 
 .products {
-    background-image: url('/images/img-1.jpg');
+    background-image: url('./images/img-1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,7 +46,7 @@
 }
 
 .sign-up {
-    background-image: url('/images/img-8.jpg');
+    background-image: url('./images/img-8.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
