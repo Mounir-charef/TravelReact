@@ -36,12 +36,12 @@ function Footer() {
 
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
-                        <h2 className='title'>About Us</h2>
+                        <h2 className='title'>Sponsers</h2>
                         <Link to="/">Lorem ipsum dolor.</Link><Link to="/">Beatae, repudiandae, similique.</Link><Link
                         to="/">Beatae doloremque, nihil?</Link><Link to="/">Et officia, tempore.</Link>
                     </div>
                     <div className='footer-link-items'>
-                        <h2 className='title'>Contact Us</h2>
+                        <h2 className='title'>Our Products</h2>
                         <Link to="/">Lorem ipsum dolor.</Link><Link to="/">Distinctio, quis, ullam.</Link><Link to="/">Consequuntur,
                         esse, soluta!</Link><Link to="/">Hic provident, voluptates.</Link>
                     </div>
