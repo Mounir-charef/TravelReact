@@ -59,10 +59,10 @@ video {
         font-size: 70px;
         margin-top: -150px;
     }
-    .hero-container{
-        background-size: cover;
-        background-position: center;
-    }
+    /*.hero-container{*/
+    /*    background-size: cover;*/
+    /*    background-position: center;*/
+    /*}*/
 
 }
 
