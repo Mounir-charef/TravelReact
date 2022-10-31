@@ -62,6 +62,7 @@ function Footer() {
                             className='social-icon-link facebook'
                             href='https://www.facebook.com/Chrf.Mounir'
                             target='_blank'
+                            rel="noopener noreferrer"
                             aria-label='Facebook'
                         >
                             <i className='fab fa-facebook-f'/>
@@ -70,6 +71,7 @@ function Footer() {
                             className='social-icon-link instagram'
                             href='https://www.instagram.com/chrf_mounir/'
                             target='_blank'
+                            rel="noopener noreferrer"
                             aria-label='Instagram'
                         >
                             <i className='fab fa-instagram'/>
@@ -78,6 +80,7 @@ function Footer() {
                             className='social-icon-link github'
                             href='https://github.com/lolifmaster'
                             target='_blank'
+                            rel="noopener noreferrer"
                             aria-label='Twitter'
                         >
                             <i className='fab fa-github'/>
@@ -86,6 +89,7 @@ function Footer() {
                             className='social-icon-link twitter'
                             href='https://www.linkedin.com/in/mounir-charef-3397b1229/'
                             target='_blank'
+                            rel="noopener noreferrer"
                             aria-label='LinkedIn'
                         >
                             <i className='fab fa-linkedin'/>

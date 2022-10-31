@@ -157,6 +157,8 @@
 
     .social-media-wrap {
         flex-direction: column;
+        justify-content: flex-start;
+
     }
 }
 
