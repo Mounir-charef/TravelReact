@@ -127,7 +127,6 @@
         font-size: 1.8rem;
         cursor: pointer;
     }
-
     .fa-times {
         color: #fff;
         font-size: 2rem;
@@ -152,5 +151,11 @@
         background: #fff;
         color: #242424;
         transition: 250ms;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .navbar-logo {
+        white-space: pre;
     }
 }
