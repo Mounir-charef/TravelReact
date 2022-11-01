@@ -19,7 +19,7 @@
 .products,
 .sign-up {
     display: flex;
-    height: 90vh;
+    height: calc(100vh - 80px);
     align-items: center;
     justify-content: center;
     font-size: 3rem;

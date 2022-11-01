@@ -52,7 +52,7 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                         <Link to='/' className='social-logo title'>
-                            Lolifmaster
+                            Lolifmaster &nbsp;
                             <i className='fa-solid fa-code'/>
                         </Link>
                     </div>
