@@ -57,7 +57,7 @@ textarea{
 
 @media screen and (max-width: 960px){
     .form-wrap{
-        width: 100%;
+        width: 70%;
         margin: 2rem;
     }
 
