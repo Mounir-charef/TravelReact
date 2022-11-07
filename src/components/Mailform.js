@@ -18,7 +18,7 @@ function Mailform() {
                         <input className='form-item' type="email" name='email' placeholder='Email'/>
                         <textarea className='form-item' name="content" id="text" cols="30" rows="5" placeholder='Message'></textarea>
 
-                        <Button buttonStyle='btn--outline' buttonSize='btn--large' type='submit' onClick={loggin}>
+                        <Button buttonStyle='btn--outline' buttonSize='btn--medium' type='submit' onClick={loggin}>
                             SEND
                         </Button>
                     </form>
