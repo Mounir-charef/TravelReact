@@ -17,6 +17,7 @@
     height: 70%;
     border-radius: 7px;
     overflow: hidden;
+    opacity: .9;
 }
 
 .form-box{
@@ -56,12 +57,15 @@ textarea{
 
 @media screen and (max-width: 960px){
     .form-wrap{
-        width: 50%;
+        width: 100%;
+        margin: 2rem;
     }
+
 }
 
 @media screen and (max-width: 600px){
     .form-wrap{
-        width: 70%;
+        width: 100%;
+        margin: 1rem;
     }
 }

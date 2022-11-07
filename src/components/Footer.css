@@ -94,6 +94,7 @@
     color: #b1b1b1;
 }
 
+/* Social Icons */
 .social-icon-link {
     color: #fff;
     font-size: 24px;
@@ -161,5 +162,3 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-}
