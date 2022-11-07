@@ -35,6 +35,7 @@ function Navbar() {
                         <Navitem title={"Home"} to={''} sign={false} onClick={closeMobileMenu}/>
                         <Navitem title={"Services"} to={"Services"} sign={false} onClick={closeMobileMenu}/>
                         <Navitem title={"Products"} to={"Products"} sign={false} onClick={closeMobileMenu}/>
+                        <Navitem title="Contact us" to={"contact"} sign={false} onClick={closeMobileMenu} />
                         <Navitem title={"Sign up"} to={"Sign-up"} sign={true} onClick={closeMobileMenu}/>
                     </ul>
                     {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
