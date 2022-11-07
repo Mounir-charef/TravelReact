@@ -7,14 +7,16 @@ import './Navbar.css'
 function Navbar() {
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
-
+    const [logo, setLogo] = useState('Lolifmaster ')
     const closeMobileMenu = () => setClick(false);
 
     const showButton = () => {
         if(window.innerWidth <= 960) {
             setButton(false);
+            setLogo('');
         } else {
             setButton(true);
+            setLogo('Lolifmaster');
         }
     }
     useEffect(() => {
@@ -26,7 +28,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link className="navbar-logo" to='/'>
-                        Lolifmaster &nbsp; <i className="fa-solid fa-code"></i>
+                        {logo} <i className="fa-solid fa-code"></i>
                     </Link>
                     <div className="menu-icon" onClick={()=> {setClick(!click)}}>
                         <i className={click ? 'fas fa-times' : "fas fa-bars"}></i>

@@ -10,7 +10,7 @@
 }
 
 .navbar-container {
-    padding-inline: 2rem;
+    padding-inline: 3rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -103,10 +103,12 @@
     }
 
     .navbar-container {
+        padding-inline: 1rem;
         justify-content: unset;
     }
 
     .navbar-logo {
+        /*font-size: 3rem;*/
         justify-self: flex-start;
     }
 
