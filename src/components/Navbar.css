@@ -1,5 +1,4 @@
 .navbar {
-    white-space: nowrap;
     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgba(26, 23, 23));
     height: 5rem;
     font-size: 1.2rem;
@@ -110,6 +109,7 @@
     .navbar-logo {
         /*font-size: 3rem;*/
         justify-self: flex-start;
+        padding-left: 1rem;
     }
 
     .menu-icon {
