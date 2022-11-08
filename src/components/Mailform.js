@@ -31,7 +31,7 @@ function Mailform() {
         <div className='form-container'>
             <div className='form-wrap'>
                 <h1 className='form-title'> Contact us </h1>
-                {click && <h3 className='form-confirmation'> Email send </h3>}
+                {click && <h3 className='form-confirmation'> EMAIL SENT </h3>}
                 <div className="form-box">
                     <form id='form1' className='form-content' onSubmit={sendEmail}>
 
