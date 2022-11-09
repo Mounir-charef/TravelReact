@@ -1,3 +1,7 @@
+:root {
+    --main-height: calc(100vh - 80px);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,7 +19,7 @@
 .services,
 .sign-up {
     display: flex;
-    height: calc(100vh - 80px);
+    height: var(--main-height);
     align-items: center;
     justify-content: center;
     font-size: 3rem;
@@ -38,6 +42,16 @@
         opacity: 1;
         filter: blur(0);
     }
+}
+
+@media (prefers-reduced-motion) {
+    .form-container,
+    .services,
+    .sign-up,
+    .hero-container{
+        animation: none;
+    }
+
 }
 
 .services {
