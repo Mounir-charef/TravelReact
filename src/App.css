@@ -11,15 +11,33 @@
 #sous-title{
     font-family: 'Amatic SC', cursive;
 }
-.home,
+
 .services,
-.products,
 .sign-up {
     display: flex;
     height: calc(100vh - 80px);
     align-items: center;
     justify-content: center;
     font-size: 3rem;
+}
+.form-container,
+.services,
+.sign-up,
+.hero-container{
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        scale: 1.5;
+        opacity: 0;
+        filter: blur(5px);
+    }
+    to{
+        scale: 1;
+        opacity: 1;
+        filter: blur(0);
+    }
 }
 
 .services {
