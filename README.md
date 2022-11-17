@@ -1,3 +1,3 @@
 # resp_react_app
-A simple responsive react website for travel agency 
-#you can check it on github pages
+A simple responsive react website for travel agency <br />
+**you can check it on github pages**
