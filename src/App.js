@@ -5,7 +5,6 @@ import {Routes , Route} from "react-router-dom";
 import Home from "./components/pages/Home";
 import Services from "./components/pages/Services";
 import SignUp from "./components/pages/SignUp";
-import Footer from "./components/Footer";
 import Contact from "./components/pages/Contact";
 
 function App() {
@@ -20,7 +19,6 @@ function App() {
               <Route path='/sign-up' element={<SignUp/>} />
               <Route path='/contact' element={<Contact />} />
           </Routes>
-        <Footer />
     </>
   );
 }
