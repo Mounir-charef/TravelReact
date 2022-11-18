@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("../images/img-1.jpg") center center/cover no-repeat;
+    background: url("../images/img-1.webp") center center/cover no-repeat;
     height: calc(100vh - 5rem);
 }
 

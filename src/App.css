@@ -54,29 +54,22 @@
 
 }
 
-.services {
-    background-image: url('./images/img-2.jpg');
-    background-position: center;
+.services, .products, .sign-up {
+    background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
 }
 
+.services {
+    background-image: url('./images/img-2.webp');
+}
+
+
 .products {
-    background-image: url('./images/img-1.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+    background-image: url('./images/img-1.webp');
 }
 
 .sign-up {
-    background-image: url('./images/img-8.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+    background-image: url('./images/img-8.webp');
 }

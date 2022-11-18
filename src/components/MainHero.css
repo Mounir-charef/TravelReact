@@ -12,7 +12,7 @@ video {
 
 
 .hero-container {
-    background: url("../images/img-home.jpg") center center/cover no-repeat;
+    background: url("../images/img-home.webp") center center/cover no-repeat;
     background-size: 100vw 100vh;
     height: var(--main-height);
     width: 100%;
