@@ -1,7 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Link} from "react-router-dom";
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 
 function Carditem(props) {
+    const [loaded, setLoaded] = useState(false)
     return (
         <>
             <li className="cards__item">
@@ -10,7 +13,13 @@ function Carditem(props) {
                         <img src={props.src}
                              alt="Travel img"
                              className="cards__item__img"
-                        loading='lazy'/>
+                             loading='lazy'
+                             onLoad={() => {
+                                 setLoaded(true);
+                             }}
+                             style={loaded? {} : {display: "none"}}
+                        />
+                        {!loaded && <Skeleton className='cards__item__img skel'/>}
                     </figure>
                     <div className="cards__item__info">
                         <h5 className="cards__item__text">
