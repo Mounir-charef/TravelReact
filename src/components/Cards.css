@@ -85,10 +85,17 @@ h1 {
     transition: all 0.2s linear;
     z-index: 1;
 }
-.skel {
+.skeleton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     z-index: 2;
     padding: 3px;
     display: block;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
 }
 
 .cards__item__img:hover {

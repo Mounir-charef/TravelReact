@@ -17,9 +17,8 @@ function Carditem(props) {
                              onLoad={() => {
                                  setLoaded(true);
                              }}
-                             style={loaded? {} : {display: "none"}}
                         />
-                        {!loaded && <Skeleton className='cards__item__img skel'/>}
+                        {!loaded && <Skeleton className='skeleton'/>}
                     </figure>
                     <div className="cards__item__info">
                         <h5 className="cards__item__text">
