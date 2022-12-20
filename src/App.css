@@ -2,6 +2,10 @@
     --main-height: calc(100vh - 80px);
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
