@@ -68,6 +68,7 @@ h1 {
     color: #fff;
     background-color: #1f98f4;
     box-sizing: border-box;
+    z-index: 2;
 }
 
 .cards__item__img {
@@ -83,7 +84,7 @@ h1 {
     max-height: 100%;
     object-fit: cover;
     transition: all 0.2s linear;
-    z-index: 1;
+    z-index: 2;
 }
 .skeleton {
     position: absolute;
@@ -91,7 +92,7 @@ h1 {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 2;
+    z-index: 3;
     padding: 3px;
     display: block;
     width: calc(100% + 10px);
