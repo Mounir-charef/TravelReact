@@ -1,5 +1,6 @@
 :root {
     --main-height: calc(100svh - 5rem);
+    --dynamic-height: calc(100vh - 5rem);
 }
 
 ::-webkit-scrollbar {
@@ -23,7 +24,7 @@
 .services,
 .sign-up {
     display: flex;
-    height: var(--main-height);
+    height: var(--dynamic-height);
     align-items: center;
     justify-content: center;
     font-size: 3rem;
