@@ -72,7 +72,7 @@
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        height: var(--main-height);
+        height: calc(100vh - 5rem);
         position: absolute;
         top: 5rem;
         left: -100%;
