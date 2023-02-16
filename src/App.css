@@ -1,5 +1,5 @@
 :root {
-    --main-height: calc(100vh - 5rem);
+    --main-height: calc(100svh - 5rem);
 }
 
 ::-webkit-scrollbar {
