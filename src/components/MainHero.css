@@ -16,7 +16,14 @@
 /*    background: #555;*/
 /*}*/
 
-video {
+/*video {*/
+/*    object-fit: cover;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    position: fixed;*/
+/*    z-index: -1;*/
+/*}*/
+.hero-container > img {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -26,8 +33,8 @@ video {
 
 
 .hero-container {
-    background: url("../images/img-home.webp") center center/cover no-repeat;
-    background-size: 100vw 100vh;
+    /*background: url("../images/img-home.webp") center center/cover no-repeat;*/
+    /*background-size: 100vw 100vh;*/
     height: var(--main-height);
     width: 100%;
     display: flex;
@@ -36,7 +43,7 @@ video {
     text-align: center;
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;
+    /*object-fit: contain;*/
 }
 
 .hero-container > h1 {

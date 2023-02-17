@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 
-function Carditem(props) {
+function CardItem(props) {
     const [loaded, setLoaded] = useState(false)
     return (
         <>
@@ -31,4 +31,4 @@ function Carditem(props) {
     );
 }
 
-export default Carditem;
+export default CardItem;
