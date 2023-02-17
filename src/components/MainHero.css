@@ -25,7 +25,9 @@
 /*}*/
 .bg-img {
     object-fit: cover;
+    -o-object-fit: cover;
     width: 100%;
+    height: calc(100vh - 60px);
     height: var(--dynamic-height);
     height: var(--main-height);
     position: absolute;
@@ -34,6 +36,7 @@
 
 
 .hero-container {
+    height: var(--dynamic-height);
     height: var(--main-height);
     width: 100%;
     display: flex;
