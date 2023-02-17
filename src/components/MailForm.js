@@ -3,7 +3,7 @@ import './Form.css';
 import emailjs from 'emailjs-com'
 
 
-function Mailform() {
+function MailForm({setLoading}) {
 
     const [name, setName] = useState(''),
         [email, setEmail] = useState(''),
@@ -29,6 +29,9 @@ function Mailform() {
 
     return (
         <div className='form-container'>
+            <img className='bg-img' src={require("../images/img-1.webp")} alt='background-img' onLoad={() => {
+                setLoading(false)
+            }}/>
             <div className='form-wrap'>
                 <h1 className='form-title'> Contact us </h1>
                 {click && <h3 className='form-confirmation'> EMAIL SENT </h3>}
@@ -48,4 +51,4 @@ function Mailform() {
     );
 }
 
-export default Mailform;
+export default MailForm;

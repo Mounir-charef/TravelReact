@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("../images/img-1.webp") center center/cover no-repeat;
+    /*background: url("../images/img-1.webp") center center/cover no-repeat;*/
     height: calc(100vh - 5rem);
 }
 
@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    width: 30%;
+    width: 40em;
     height: 70vh;
     border-radius: 7px;
     overflow: hidden;
@@ -78,15 +78,7 @@ textarea{
     color: #242424;
 }
 
-@media screen and (max-width: 960px){
-    .form-wrap{
-        width: 70%;
-        margin: 2rem;
-    }
-
-}
-
-@media screen and (max-width: 600px){
+@media screen and (max-width: 43em){
     .form-wrap{
         width: 100%;
         margin: 1rem;

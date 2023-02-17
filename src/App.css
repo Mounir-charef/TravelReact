@@ -29,6 +29,8 @@
     justify-content: center;
     font-size: 3rem;
 }
+
+
 .form-container,
 .services,
 .sign-up,
@@ -60,19 +62,7 @@
 }
 
 .services, .products, .sign-up {
-    background-position: center center;
-    background-size: cover;
     color: #fff;
-    font-size: 100px;
-}
-
-.services {
-    background-image: url('./images/img-2.webp');
-}
-
-
-.products {
-    background-image: url('./images/img-1.webp');
 }
 
 .sign-up {
