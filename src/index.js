@@ -33,7 +33,10 @@ const App = () => {
         </>
     )
 }
+// FOR PRODUCTION
+// const router = createBrowserRouter([{element: <App />, children: routes}], {basename: '/TravelReact'})
 
+// FOR DEVELOPMENT
 const router = createBrowserRouter([{element: <App />, children: routes}])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

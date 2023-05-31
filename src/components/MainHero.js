@@ -6,7 +6,6 @@ function MainHero({setLoading}) {
         <div className="hero-container">
             {/*<video preload="none" src={require("../videos/video-1-Veed.mp4")} autoPlay loop muted/>*/}
             <img className='bg-img' src={require("../images/img-home.webp")} alt='background-img' onLoad={() => {
-                console.log("loaded")
                 setLoading(false)
             }}/>
             <h1 className='title'>ADVENTURE AWAITS</h1>
