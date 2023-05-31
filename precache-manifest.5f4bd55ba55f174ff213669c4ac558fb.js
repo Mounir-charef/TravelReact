@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2a9fa87e88ba19d025c0",
+    "revision": "657d3a4f97fb81dec90a",
     "url": "/TravelReact/static/css/main.f3dfd2d7.chunk.css"
   },
   {
-    "revision": "2a9fa87e88ba19d025c0",
-    "url": "/TravelReact/static/js/main.2a9fa87e.chunk.js"
+    "revision": "657d3a4f97fb81dec90a",
+    "url": "/TravelReact/static/js/main.657d3a4f.chunk.js"
   },
   {
     "revision": "374acef9aa602f73de19",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/TravelReact/static/media/img-1.e7780b8b.webp"
   },
   {
-    "revision": "33c469a57e54c54c7aa30dcc1b2c9065",
+    "revision": "89a5f6766f8ec6205f444d90f8ee7773",
     "url": "/TravelReact/index.html"
   }
 ];

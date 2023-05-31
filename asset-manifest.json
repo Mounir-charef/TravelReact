@@ -1,7 +1,7 @@
 {
   "main.css": "/TravelReact/static/css/main.f3dfd2d7.chunk.css",
-  "main.js": "/TravelReact/static/js/main.2a9fa87e.chunk.js",
-  "main.js.map": "/TravelReact/static/js/main.2a9fa87e.chunk.js.map",
+  "main.js": "/TravelReact/static/js/main.657d3a4f.chunk.js",
+  "main.js.map": "/TravelReact/static/js/main.657d3a4f.chunk.js.map",
   "static/css/1.fca91921.chunk.css": "/TravelReact/static/css/1.fca91921.chunk.css",
   "static/js/1.374acef9.chunk.js": "/TravelReact/static/js/1.374acef9.chunk.js",
   "static/js/1.374acef9.chunk.js.map": "/TravelReact/static/js/1.374acef9.chunk.js.map",
@@ -19,9 +19,9 @@
   "static/media/img-8.webp": "/TravelReact/static/media/img-8.59acd98f.webp",
   "static/media/img-1.webp": "/TravelReact/static/media/img-1.e7780b8b.webp",
   "static/css/main.f3dfd2d7.chunk.css.map": "/TravelReact/static/css/main.f3dfd2d7.chunk.css.map",
-  "static/css/1.fca91921.chunk.css.map": "/TravelReact/static/css/1.fca91921.chunk.css.map",
   "static/css/2.81c35c2e.chunk.css.map": "/TravelReact/static/css/2.81c35c2e.chunk.css.map",
+  "static/css/1.fca91921.chunk.css.map": "/TravelReact/static/css/1.fca91921.chunk.css.map",
   "index.html": "/TravelReact/index.html",
-  "precache-manifest.26bda6e6bf09727d2df6fa70124a3842.js": "/TravelReact/precache-manifest.26bda6e6bf09727d2df6fa70124a3842.js",
+  "precache-manifest.5f4bd55ba55f174ff213669c4ac558fb.js": "/TravelReact/precache-manifest.5f4bd55ba55f174ff213669c4ac558fb.js",
   "service-worker.js": "/TravelReact/service-worker.js"
 }
