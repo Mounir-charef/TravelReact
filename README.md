@@ -1,3 +1,3 @@
-# resp_react_app
+# TravelReact
 A responsive react website for travel agency <br />
-[**you can check it on github pages**](https://lolifmaster.github.io/resp_react_app/)
+[**you can check it on github pages**](https://lolifmaster.github.io/TravelReact/)
